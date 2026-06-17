@@ -304,3 +304,64 @@ body{
 .connect-me .sociallist img:hover{
     transform: translateY(-3px);
 }
+.projects{
+    min-height: 90vh;
+    padding: 30px 20px;
+
+}
+.projects .heading{
+    font-size: 3rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.projects .container{
+    min-height: 75vh;
+    
+
+    
+}
+.projects .first-line{
+    display: flex;
+    height: 50%;
+    
+    
+}
+
+.projects .project-one ,.projects .project-two{
+    flex: 1 1 50%;
+    border: 2px solid black;
+    min-height: 35vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding: 30px 20px;
+
+}
+.projects .project-one span , .projects .project-two span{
+    font-size: 1.5rem;
+}
+.projects .project-one .stack , .projects .project-two .stack{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.projects .project-one span
+
+.projects .first-line a{
+    text-decoration: none;
+    font-size: 3rem;
+    display: block;
+    color:black
+    
+    
+}
+.projects .project-one .stack div, .projects .project-two .stack div{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    
+}
